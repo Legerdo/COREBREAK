@@ -8,6 +8,10 @@ COREBREAK는 지층을 파고들며 굴착기를 키우는 브라우저용 픽�
 ![Phaser](https://img.shields.io/badge/Phaser-3.90-1B1E2B)
 ![Vite](https://img.shields.io/badge/Vite-7.3-646CFF?logo=vite&logoColor=white)
 
+### [▶ 브라우저에서 바로 플레이](https://legerdo.github.io/COREBREAK/)
+
+설치 없이 WebGL을 지원하는 브라우저에서 실행할 수 있습니다.
+
 ![COREBREAK 첫 화면: 지층, 굴착 릴, 레버와 튜토리얼 안내](assets/screenshots/01-tutorial.png)
 
 ## 게임 소개
@@ -59,6 +63,10 @@ npm run dev
 ```
 
 터미널에 표시된 로컬 주소를 WebGL을 지원하는 브라우저에서 여세요. 배포용 빌드는 `npm run build`로 생성하며 결과물은 `dist/`에 저장됩니다.
+
+## GitHub Pages 배포
+
+공개 사이트는 이 저장소의 `main` 브랜치 `docs/` 폴더에서 제공됩니다. 게임을 업데이트할 때는 `npm run build`를 실행하고 새 `dist/` 내용을 `docs/`에 복사한 뒤 함께 커밋·푸시해야 사이트에 반영됩니다.
 
 ## 구성
 
